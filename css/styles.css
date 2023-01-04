@@ -1,0 +1,36 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.logo {
+  height: 24px;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+
+  /* identical to box height, or 133% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-first_word {
+  width: 44px;
+  color: #4d5ae5;
+}
+
+.logo-second_word {
+  width: 71px;
+  color: #2e2f42;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
