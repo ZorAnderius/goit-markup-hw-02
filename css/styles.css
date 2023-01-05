@@ -1,26 +1,33 @@
+/* --------index.html styles--------- */
+
 body {
   font-family: "Roboto", sans-serif;
+  color: #2e2f42;
 }
 
+/* -----HEADER------------ */
+
 /* .header-index {
-}
-.header-navigation {
-} */
+}*/
+/* .header-navigation {
+}  */
 
 .header-logo,
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
-  color: #4d5ae5;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
 }
 
-.header-logo-second_word {
-  color: #2e2f42;
+.header-logo {
+  line-height: 1.33;
 }
+
+/* .header-logo-second_word {
+} */
 
 .link {
   text-decoration: none;
@@ -31,28 +38,40 @@ body {
 }
 
 /* .header-list {
-}
-.header-item {
-} */
+}*/
+/* .header-item {
+}  */
 
-.header-link {
+.header-link,
+.main-projects-subtitle {
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
 }
+
+.header-link {
+  font-size: 16px;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: #404bbf;
+}
+
 .header-address {
   font-style: normal;
 }
 
 /* .header-address-list {
-}
-.header-mail {
-} */
+}*/
+/* .header-mail {
+}  */
 
 .header-mail-link,
-.header-phone-link {
+.header-phone-link,
+.main-project-desc,
+.priorites-desc,
+.team-job {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -60,12 +79,20 @@ body {
 }
 
 /* .header-phone {
-}
-.header-mail-link{
-}
-.header-phone-link{
+}*/
+/* .header-mail-link{
 } */
+/* .header-phone-link{
+}  */
 
+.header-mail-link:hover,
+.header-phone-link:hover,
+.header-mail-link:focus,
+.header-phone-link:focus {
+  color: #404bbf;
+}
+
+/* -----------HERO------------ */
 .hero {
   background-color: #2e2f42;
 }
@@ -75,6 +102,7 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
+
 .hero-btn {
   font-family: inherit;
   font-weight: 500;
@@ -88,60 +116,75 @@ body {
   border-radius: 4px;
 }
 
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
+}
+
+/* ---SECTION 2 index.html */
+
 /* .main-index{
-}
-.main-priorities {
-}
-.priorites-title {
-}
-.priorities-list {
-}
-.priorities-item {
+}*/
+/* .main-priorities {
 } */
 
-.priorities-subtitle {
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* .priorities-list {
+} */
+/* .priorities-item {
+}  */
+
+.priorities-subtitle,
+.team-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 
-.priorites-desc {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
+/* .priorites-desc {
+} */
+
+/* ---SECTION 3 index.html */
 
 /* .main-results {
 } */
 
-.results-title {
-  font-size: 36px;
-  line-height: 40px;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-/* .results-list {
-}
-.results-item {
-}
-.results-image{
-} */
-
-.main-team {
-  background-color: #f4f4fd;
-}
+.results-title,
 .team-title {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
 }
 
+/* .results-title{
+} */
+/* .results-list {
+}*/
+/* .results-item {
+} */
+/* .results-image{
+}  */
+
+/* ---SECTION 4 index.html */
+.main-team {
+  background-color: #f4f4fd;
+}
+/* .team-title {
+} */
 /* .team-list {
 } */
 
@@ -151,23 +194,15 @@ body {
 
 /* .team-image {
 } */
+/* .team-name {
+} */
+/* .team-job {
+} */
 
-.team-name {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.team-job {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
+/* -------------FOOTER------------- */
 
 .footer-index,
-.footer_portfolio {
+.footer-portfolio {
   background-color: #2e2f42;
 }
 .footer-logo {
@@ -185,21 +220,19 @@ body {
   color: #e7e9fc;
 }
 
-/* Portfolio's styles */
+/*--------- Portfolio's styles *-------------/
+
+/* ----SECTION WITH BUTTONS---------- */
 /* .header-portfolio{
 } */
-
 /* .main-portfolio {
-}
-
-.main-portfolio-navigation {
-}
-
-.main-portfolio-list {
-}
-
-.main-portfolio-item {
+}*/
+/* .main-portfolio-navigation {
 } */
+/* .main-portfolio-list {
+} */
+/* .main-portfolio-item {
+}  */
 
 .main-portfolio-btn {
   font-family: inherit;
@@ -214,29 +247,26 @@ body {
   border: 1px solid #e7e9fc;
   border-radius: 4px;
 }
+
+.main-portfolio-btn:hover,
+.main-portfolio-btn:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+/* -----SECTION WITH PROJECTS */
 /* .main-projects {
-}
-
-.main-projects-list {
-}
-
-.main-project-item {
-}
-
-.main-projects-image {
+}*/
+/* .main-projects-list {
 } */
+/* .main-project-item {
+} */
+/* .main-projects-image {
+}  */
 
 .main-projects-subtitle {
-  font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 
-.main-project-desc {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
+/* .main-project-desc {
+} */
