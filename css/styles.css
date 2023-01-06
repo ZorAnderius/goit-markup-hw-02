@@ -19,6 +19,39 @@ body {
   color: var(--title-color);
 }
 
+.btn {
+  font-family: inherit;
+  font-weight: var(--title-hero-weight);
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+}
+
+.subtitle {
+  font-weight: var(--title-hero-weight);
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.text-desc {
+  color: var(--text-desc-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+
 /* -----HEADER------------ */
 
 /* .header-index {
@@ -40,16 +73,8 @@ body {
   line-height: 1.33;
 }
 
-.header-logo-second_word {
+.header-logo > span {
   color: var(--title-color);
-}
-
-.link {
-  text-decoration: none;
-}
-
-.list {
-  list-style-type: none;
 }
 
 /* .header-list {
@@ -109,11 +134,6 @@ body {
 }
 
 .hero-btn {
-  font-family: inherit;
-  font-weight: var(--title-hero-weight);
-  font-size: inherit;
-  line-height: inherit;
-  letter-spacing: 0.04em;
   color: var(--hero-back-color);
 
   background: var(--button-logo-color);
@@ -150,15 +170,8 @@ body {
 } */
 /* .priorities-item {
 }  */
-
-.priorities-subtitle,
-.team-name,
-.projects-subtitle {
-  font-weight: var(--title-hero-weight);
-  font-size: 20px;
-  line-height: 1.2;
-}
-
+/* .priorities-subtitle {
+} */
 /* .priorites-desc {
 } */
 
@@ -166,14 +179,6 @@ body {
 
 /* .main-results {
 } */
-
-.results-title,
-.team-title {
-  font-size: 36px;
-  line-height: 1.11;
-  text-transform: capitalize;
-}
-
 /* .results-title{
 } */
 /* .results-list {
@@ -196,9 +201,7 @@ body {
   background-color: var(--hero-back-color);
 }
 
-.team-job,
-.project-desc,
-.priorites-desc {
+.project-desc {
   color: var(--text-desc-color);
 }
 
@@ -219,7 +222,7 @@ body {
   line-height: 1.17;
 }
 
-.footer-logo-second_word {
+.footer-logo > span {
   color: var(--back-logo-color);
 }
 
@@ -242,12 +245,7 @@ body {
 }  */
 
 .main-portfolio-btn {
-  font-family: inherit;
-  font-weight: var(--title-hero-weight);
-  font-size: inherit;
-  line-height: inherit;
   text-align: center;
-  letter-spacing: 0.04em;
   color: var(--button-logo-color);
 
   background: var(--back-logo-color);
