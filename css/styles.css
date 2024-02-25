@@ -18,7 +18,8 @@ body{
 
 
 .nav-logo,
-.footer-studio-logo {
+.footer-studio-logo,
+.footer-portfolio-logo {
     color: var(--IRIS, #4D5AE5);
     font-family: Raleway;
     font-size: 18px;
@@ -29,11 +30,9 @@ body{
     text-transform: uppercase;
 }
 
-.nav-logo-header {
+.header-second-logo {
     color: var(--NAVY-BLUE, #2E2F42);
 }
-
-
 
 /* .nav-list {} */
 
@@ -223,7 +222,8 @@ body{
 /* #endregion Team */
 
 /* #region Studio Footer */
-.footer-studio {
+.footer-studio,
+.footer-portfolio{
     background: var(--NAVY-BLUE, #2E2F42);
 }
 
@@ -231,7 +231,8 @@ body{
     color: var(--CLOUD, #F4F4FD);;
 }
 
-.footer-stidio-text {
+.footer-stidio-text,
+.footer-portfolio-text {
     color: var(--CLOUD, #F4F4FD);
     font-size: 16px;
     font-style: normal;
@@ -240,3 +241,85 @@ body{
     letter-spacing: 0.32px;}
 
 /* #endregion Studio Footer */
+
+
+
+/* Portfolio */
+
+/* #region Header */
+/* .header-portfolio {} */
+
+/* .header-portfolio-nav {} */
+
+/* .header-portfolio-address {} */
+
+/* #endregion Header */
+
+/* #region Projects Portfolio */
+/* .main-portfolio {} */
+
+/* .main-projects {} */
+
+/* .projects-filter-list {} */
+
+/* .filter-list-item {} */
+
+.filter-item-btn {
+    color: var(--IRIS, #4D5AE5);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+
+    border-radius: 4px;
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--CLOUD, #F4F4FD);
+}
+
+.filter-item-btn:hover,
+.filter-item-btn:focus {
+    color: var(--WHITE, #FFF);
+
+    border-radius: 4px;
+    background: var(--OCEAN, #404BBF);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+
+/* .projects-list {} */
+
+/* .projects-list-item {} */
+
+/* .projects-item-img {} */
+
+.projects-item-title {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.projects-item-text {
+    color: var(--SLATE, #434455);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+/* #endregion Project Portfolio */
+
+/* #region Portfolio Footer */
+.footer-second-logo {
+    color: var(--CLOUD, #F4F4FD);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+/* #endregion Portfolio Footer */
