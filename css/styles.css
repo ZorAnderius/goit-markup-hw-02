@@ -121,6 +121,7 @@ body{
     border-radius: 4px;
     color: var(--back-hero-color);
     background: var(--logo-btn-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .hero-btn:hover,
